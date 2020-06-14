@@ -1,0 +1,22 @@
+{
+  "name": "practica12_asynch_promises",
+  "version": "1.0.0",
+  "description": "Asincronismo y sus variantes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "callback": "node src/callback/index.js",
+    "callback:api": "node src/callback/api.js",
+    "promesa" : "node src/promesa/index.js",
+    "promesa:API_RM" : "node src/promesa/asynch.js"
+  },
+  "keywords": [
+    "callback",
+    "promise"
+  ],
+  "author": "Tibor Kopca",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
